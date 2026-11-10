@@ -1,0 +1,55 @@
+# Integración continua: ejecuta las pruebas automatizadas en cada envío a GitHub.
+# Corre en un Mac virtual de GitHub, compila la app y lanza las pruebas en un simulador de iPhone.
+name: Pruebas
+
+on:
+  push:                     # en cada envío (push) a cualquier rama
+  pull_request:
+    branches: [main]        # y en cada solicitud de integración hacia main
+  workflow_dispatch:        # también se puede lanzar a mano desde la pestaña Actions
+
+jobs:
+  pruebas:
+    runs-on: macos-26       # Mac virtual con macOS 26 y Xcode
+    timeout-minutes: 30
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Elegir la versión estable más reciente de Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Buscar un simulador de iPhone disponible
+        # Se elige el primer iPhone de la versión de iOS más reciente instalada en el Mac virtual.
+        run: |
+          ID=$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          datos = json.load(sys.stdin)["devices"]
+          ios = sorted((r for r in datos if "iOS" in r), key=lambda r: [int(x) for x in r.split("iOS-")[-1].split("-")])
+          equipos = [d for d in datos[ios[-1]] if d["name"].startswith("iPhone")]
+          print(equipos[0]["udid"])
+          ')
+          echo "SIMULADOR=$ID" >> "$GITHUB_ENV"
+
+      - name: Ejecutar las pruebas con cobertura de código
+        run: |
+          xcodebuild test \
+            -project ControlDeGastos.xcodeproj \
+            -scheme ControlDeGastos \
+            -destination "platform=iOS Simulator,id=$SIMULADOR" \
+            -enableCodeCoverage YES \
+            -resultBundlePath Resultados.xcresult \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Mostrar la cobertura por target
+        if: always()
+        run: xcrun xccov view --report --only-targets Resultados.xcresult
+
+      - name: Guardar los resultados como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-pruebas
+          path: Resultados.xcresult
