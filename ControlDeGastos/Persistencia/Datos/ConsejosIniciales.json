@@ -1,0 +1,314 @@
+[
+  {
+    "orden": 1,
+    "categoria": "habitos",
+    "titulo": "Registra el gasto apenas ocurre",
+    "contenido": "El mejor momento para registrar un gasto es justo después de pagarlo. Una hora después ya olvidaste el monto, y al final del día ya olvidaste la compra.\n\nEse pequeño esfuerzo de registrar es justamente lo que te hace consciente de cuánto gastas: con el tiempo, empezarás a pensarlo dos veces antes de comprar.",
+    "ejemplo": null,
+    "icono": null
+  },
+  {
+    "orden": 2,
+    "categoria": "presupuesto",
+    "titulo": "Haz tu presupuesto antes de que empiece el mes",
+    "contenido": "Un presupuesto planifica a dónde irá tu dinero; si lo haces después, solo describe lo que ya gastaste. Anota tus ingresos, tus gastos fijos y asigna un límite a cada categoría variable.\n\nEn esta aplicación puedes definir esos límites en la pestaña Presupuestos y copiarlos del mes anterior en un toque.\n\nFuente: CMF Educa, «Haz un presupuesto».",
+    "ejemplo": null,
+    "icono": null
+  },
+  {
+    "orden": 3,
+    "categoria": "ahorro",
+    "titulo": "Págate primero",
+    "contenido": "Apenas recibas tu sueldo, separa el monto que quieres ahorrar antes de pagar cualquier otra cosa. Si esperas a fin de mes para ahorrar lo que sobre, normalmente no sobra nada.\n\nLa forma más fácil es automatizarlo: programa una transferencia a una cuenta de ahorro para el mismo día de pago. Así el ahorro deja de depender de tu fuerza de voluntad.\n\nFuente: CMF Educa, «Plan de ahorro en 4 pasos».",
+    "ejemplo": "Sueldo líquido | $800.000\nAhorro del 10 % | **$80.000\nAhorrado en un año | $960.000",
+    "icono": null
+  },
+  {
+    "orden": 4,
+    "categoria": "gastoHormiga",
+    "titulo": "¿Qué es un gasto hormiga?",
+    "contenido": "Los gastos hormiga son compras pequeñas que no estaban planificadas y no forman parte del presupuesto fijo. Por separado parecen insignificantes, pero sumados pueden representar una parte importante de tu ingreso.\n\nSnacks, bebidas, comida rápida, viajes cortos en aplicación o compras ocasionales son los más comunes. Esta aplicación te avisa cuando detecta muchos gastos pequeños en una categoría.\n\nFuente: CMF Educa, calculadora «Determina tu gasto hormiga».",
+    "ejemplo": null,
+    "icono": null
+  },
+  {
+    "orden": 5,
+    "categoria": "deuda",
+    "titulo": "La regla de la bola de nieve",
+    "contenido": "Cuando tienes varias deudas, paga primero la más pequeña mientras haces el pago mínimo en las demás. Al eliminarla, suma ese dinero al pago de la siguiente: el avance genera impulso y acelera el proceso.\n\nSi prefieres pagar menos intereses en total, existe la variante «avalancha»: se parte por la deuda con la tasa más alta. Lo importante es elegir un método y sostenerlo.\n\nFuente: Método de la bola de nieve, popularizado por D. Ramsey (2003), The Total Money Makeover.",
+    "ejemplo": "Deuda 1: $50.000 | **Pagar primero\nDeuda 2: $120.000 | Pago mínimo\nDeuda 3: $280.000 | Pago mínimo",
+    "icono": null
+  },
+  {
+    "orden": 6,
+    "categoria": "gastoHormiga",
+    "titulo": "El costo oculto del café diario",
+    "contenido": "Un café de $2.500 en días hábiles suma más de $50.000 al mes. Pequeños cambios generan un gran impacto.\n\nNo se trata de renunciar a todo: prepararlo en casa algunos días, o dejarlo como un gusto de fin de semana, libera dinero para tus metas sin que lo eches de menos.",
+    "ejemplo": "Café diario | $2.500\nDías hábiles al mes | 21\nTotal al mes | **$52.500\nTotal al año | $630.000",
+    "icono": "cup.and.saucer.fill"
+  },
+  {
+    "orden": 7,
+    "categoria": "presupuesto",
+    "titulo": "La regla 50/30/20",
+    "contenido": "Una forma simple de repartir tu ingreso: 50 % para necesidades, 30 % para gustos y 20 % para ahorro o para pagar deudas. Necesidades son el arriendo, las cuentas, la alimentación y el transporte; gustos, todo lo que podrías dejar de comprar sin afectar lo esencial.\n\nNo es una regla exacta, sino un punto de partida. Si tus necesidades superan el 50 %, busca dónde recortar en los gustos antes de sacrificar el ahorro.\n\nFuente: Warren, E. y Warren Tyagi, A. (2005). All Your Worth.",
+    "ejemplo": "Ingreso mensual | $800.000\nNecesidades (50 %) | $400.000\nGustos (30 %) | $240.000\nAhorro y deudas (20 %) | **$160.000",
+    "icono": null
+  },
+  {
+    "orden": 8,
+    "categoria": "ahorro",
+    "titulo": "Tu fondo de emergencia",
+    "contenido": "Un fondo de emergencia es dinero reservado solo para imprevistos: una urgencia médica, una reparación o quedarte sin trabajo. Tenerlo evita que una mala noticia se convierta en una deuda cara.\n\nLa meta habitual es juntar entre tres y seis meses de tus gastos básicos, en un instrumento de bajo riesgo y fácil de retirar. Si te parece mucho, parte con una meta intermedia de un mes.\n\nFuente: Consumer Financial Protection Bureau (CFPB), iniciativa «Start Small, Save Up»; CMF Educa.",
+    "ejemplo": "Gastos básicos del mes | $500.000\nPrimera meta (1 mes) | $500.000\nMeta mínima (3 meses) | **$1.500.000\nMeta ideal (6 meses) | $3.000.000",
+    "icono": null
+  },
+  {
+    "orden": 9,
+    "categoria": "habitos",
+    "titulo": "Haz una compra grande al mes",
+    "contenido": "Ir al supermercado muchas veces multiplica las compras por impulso. Planifica una compra grande al mes con lista y complétala solo con productos frescos durante las semanas.\n\nMenos visitas significan menos tentaciones y un gasto más fácil de controlar.\n\nFuente: CMF Educa, recomendaciones sobre gastos hormiga.",
+    "ejemplo": null,
+    "icono": "cart.fill"
+  },
+  {
+    "orden": 10,
+    "categoria": "deuda",
+    "titulo": "Compara créditos por su CAE, no por la cuota",
+    "contenido": "La Carga Anual Equivalente (CAE) reúne en un solo porcentaje los intereses, gastos y seguros de un crédito. Por eso permite comparar ofertas de distintas instituciones en igualdad de condiciones: la CAE más baja es la más conveniente.\n\nUna cuota baja puede esconder un plazo largo y un costo total alto. Antes de firmar, pide también el costo total del crédito: es lo que terminarás pagando en total.\n\nFuente: Superintendencia de Seguridad Social (SUSESO), «¿Qué es la CAE?».",
+    "ejemplo": "Crédito A: CAE 25 % | **Más conveniente\nCrédito B: CAE 38 % | Más caro",
+    "icono": null
+  },
+  {
+    "orden": 11,
+    "categoria": "inversion",
+    "titulo": "El interés compuesto trabaja para ti",
+    "contenido": "Cuando inviertes, ganas intereses sobre tu ahorro y, después, intereses sobre esos intereses. Mientras antes empieces, más tiempo tiene tu dinero para crecer.\n\nSegún la Encuesta Financiera de Hogares 2024 del Banco Central, el 62 % de los hogares respondió correctamente una pregunta sobre interés compuesto. Entenderlo es el primer paso para usarlo a tu favor.\n\nFuente: Banco Central de Chile, «Alfabetización financiera en la Encuesta Financiera de Hogares 2024».",
+    "ejemplo": "Aporte mensual | $50.000\nPlazo | 10 años\nTotal aportado | $6.000.000\nCon 5 % anual (ilustrativo) | **$7.764.114",
+    "icono": null
+  },
+  {
+    "orden": 12,
+    "categoria": "gastoHormiga",
+    "titulo": "Revisa tus suscripciones",
+    "contenido": "Plataformas de video, música, aplicaciones o un gimnasio que no usas: los cobros automáticos pequeños pasan inadvertidos mes a mes. Revisa tu estado de cuenta y anota cada suscripción.\n\nCancela las que no usaste el último mes. Si compartes un plan familiar, divide el costo.",
+    "ejemplo": "Plataforma de video | $8.000\nMúsica | $6.000\nAplicación que no usas | $4.000\nTotal al año | **$216.000",
+    "icono": "repeat.circle.fill"
+  },
+  {
+    "orden": 13,
+    "categoria": "presupuesto",
+    "titulo": "Separa gastos fijos y variables",
+    "contenido": "Los gastos fijos se repiten cada mes con un monto conocido, como el arriendo o el plan del celular. Los variables cambian de un mes a otro, como el supermercado, las salidas o el transporte.\n\nLos fijos se pagan primero y son difíciles de mover en el corto plazo. Donde realmente puedes ahorrar es en los variables: ahí conviene poner tus límites.",
+    "ejemplo": "Arriendo | Fijo\nPlan del celular | Fijo\nSupermercado | **Variable\nSalidas y delivery | **Variable",
+    "icono": null
+  },
+  {
+    "orden": 14,
+    "categoria": "habitos",
+    "titulo": "Usa efectivo para tus gustos",
+    "contenido": "Pagar con tarjeta o con el celular duele menos que entregar billetes, y por eso gastamos más. Retirar un monto fijo en efectivo para tus gustos de la semana pone un límite visible.\n\nCuando se acaba el efectivo, se acaban los gustos de esa semana. La CMF sugiere incluso llevar billetes grandes, para pensarlo dos veces antes de gastar en algo barato.\n\nFuente: CMF Educa, recomendaciones sobre gastos hormiga.",
+    "ejemplo": "Presupuesto de gustos al mes | $120.000\nEfectivo por semana | **$30.000",
+    "icono": null
+  },
+  {
+    "orden": 15,
+    "categoria": "ahorro",
+    "titulo": "Empieza con poco, pero empieza",
+    "contenido": "No necesitas montos grandes para crear el hábito del ahorro. Ahorrar un monto pequeño todos los meses vale más que un monto grande una sola vez.\n\nCuando el hábito se instale, súbelo de a poco: por ejemplo, $5.000 más cada tres meses. Según el CFPB, incluso montos pequeños de ahorro disponible marcan una gran diferencia frente a un imprevisto.\n\nFuente: Consumer Financial Protection Bureau (CFPB), iniciativa «Start Small, Save Up».",
+    "ejemplo": "$20.000 al mes | $240.000 al año\n$30.000 al mes | $360.000 al año\n$50.000 al mes | **$600.000 al año",
+    "icono": null
+  },
+  {
+    "orden": 16,
+    "categoria": "deuda",
+    "titulo": "Evita el avance en efectivo",
+    "contenido": "El avance en efectivo de la tarjeta de crédito suele ser una de las formas más caras de financiarse. En un estudio del SERNAC, un avance de $100.000 en seis cuotas costaba en total entre $102.141 y $154.336, según la institución.\n\nEl mismo estudio concluyó que, con la misma tarjeta, en el 92 % de los casos convenía más comprar en cuotas que pedir un avance. Si necesitas financiamiento, compara antes la CAE de un crédito de consumo.\n\nFuente: SERNAC (2013), estudio de avances en efectivo, citado por Diario Financiero.",
+    "ejemplo": "Avance solicitado | $100.000\nCosto total más bajo | $102.141\nCosto total más alto | **$154.336",
+    "icono": null
+  },
+  {
+    "orden": 17,
+    "categoria": "gastoHormiga",
+    "titulo": "La regla de las 24 horas",
+    "contenido": "Antes de una compra no planificada, espera 24 horas. Si al día siguiente todavía la quieres y cabe en tu presupuesto, cómprala.\n\nLa mayoría de los impulsos desaparecen con el tiempo. Para compras grandes, espera una semana.",
+    "ejemplo": null,
+    "icono": "clock.fill"
+  },
+  {
+    "orden": 18,
+    "categoria": "presupuesto",
+    "titulo": "Incluye los gastos que no son mensuales",
+    "contenido": "El permiso de circulación, los seguros, las matrículas, los cumpleaños y la Navidad llegan todos los años, pero no todos los meses. Por eso suelen desordenar el presupuesto.\n\nSuma su costo anual, divídelo por doce y resérvalo cada mes. Así, cuando llegue el gasto, el dinero ya estará ahí.",
+    "ejemplo": "Permiso de circulación | $120.000\nRegalos de Navidad | $180.000\nMatrícula y útiles | $300.000\nReserva mensual (÷ 12) | **$50.000",
+    "icono": null
+  },
+  {
+    "orden": 19,
+    "categoria": "inversion",
+    "titulo": "La inflación también se come tu dinero",
+    "contenido": "El dinero guardado en efectivo o en una cuenta sin reajuste pierde poder de compra cada año. Si los precios suben un 4 %, con el mismo millón de pesos compras menos que antes.\n\nPara el ahorro de mediano y largo plazo, considera instrumentos reajustables en UF o que tengan una rentabilidad mayor que la inflación. En la Encuesta Financiera de Hogares 2024, solo el 39 % respondió bien la pregunta sobre inflación.\n\nFuente: Banco Central de Chile, «Alfabetización financiera en la Encuesta Financiera de Hogares 2024».",
+    "ejemplo": "Ahorro guardado | $1.000.000\nInflación anual | 4 %\nPoder de compra al año siguiente | **$961.538",
+    "icono": null
+  },
+  {
+    "orden": 20,
+    "categoria": "habitos",
+    "titulo": "Nunca compres sin lista ni con hambre",
+    "contenido": "Ir al supermercado sin lista o con hambre es la receta perfecta para llenar el carro de cosas que no necesitas. Revisa lo que tienes en casa y anota solo lo que falta.\n\nUna vez en la tienda, compra lo que dice la lista. Si ves algo tentador, aplica la regla de las 24 horas.",
+    "ejemplo": null,
+    "icono": "list.bullet.clipboard.fill"
+  },
+  {
+    "orden": 21,
+    "categoria": "ahorro",
+    "titulo": "Ponle nombre y fecha a tu meta",
+    "contenido": "Una meta concreta motiva mucho más que «ahorrar por ahorrar». Define qué quieres, cuánto cuesta y para cuándo lo necesitas.\n\nLuego divide el monto por los meses que faltan: ese es tu ahorro mensual. Si la cifra no cabe en tu presupuesto, alarga el plazo o ajusta la meta, pero mantén la constancia.\n\nFuente: CMF Educa, calculadora «Prepara tu plan de ahorro».",
+    "ejemplo": "Meta: viaje en febrero | $600.000\nPlazo | 8 meses\nAhorro mensual necesario | **$75.000",
+    "icono": null
+  },
+  {
+    "orden": 22,
+    "categoria": "deuda",
+    "titulo": "El pago mínimo es una trampa",
+    "contenido": "Pagar solo el mínimo de la tarjeta evita la mora, pero el resto de la deuda sigue generando intereses mes a mes. Así, una deuda pequeña puede tardar años en terminar de pagarse.\n\nPaga siempre el total facturado y, si no puedes, todo lo que puedas por sobre el mínimo. Mientras lo haces, evita seguir usando la tarjeta.",
+    "ejemplo": "Deuda en la tarjeta | $500.000\nInterés del mes (3 %, ilustrativo) | $15.000\nPago mínimo | $25.000\nLo que realmente baja la deuda | **$10.000",
+    "icono": null
+  },
+  {
+    "orden": 23,
+    "categoria": "gastoHormiga",
+    "titulo": "Las apps de transporte en tramos cortos",
+    "contenido": "Un viaje corto en aplicación cuesta alrededor de $3.000. Si lo usas de ida y vuelta varios días a la semana, se convierte en uno de tus mayores gastos variables.\n\nPara distancias cortas, evalúa caminar, usar bicicleta o transporte público, y deja la aplicación para cuando realmente la necesites.\n\nFuente: Estimación publicada por 24horas.cl (2022), «¿Qué son los gastos hormiga y cómo controlarlos?».",
+    "ejemplo": "Viaje corto | $3.000\nIda y vuelta, 3 días por semana | $18.000\nAl mes (aprox.) | **$77.000",
+    "icono": "car.fill"
+  },
+  {
+    "orden": 24,
+    "categoria": "presupuesto",
+    "titulo": "Revisa tu presupuesto cada semana",
+    "contenido": "Diez minutos a la semana bastan para comparar lo gastado con lo planificado. Si una categoría avanza muy rápido, todavía estás a tiempo de corregir el resto del mes.\n\nLa proyección al cierre de la pestaña Inicio te muestra hacia dónde vas si mantienes tu ritmo actual de gasto.",
+    "ejemplo": null,
+    "icono": null
+  },
+  {
+    "orden": 25,
+    "categoria": "habitos",
+    "titulo": "Ponle freno a las compras de un clic",
+    "contenido": "Las tarjetas guardadas en tiendas y aplicaciones hacen que comprar tome segundos. Esa comodidad elimina el momento de pensar si realmente necesitas lo que estás comprando.\n\nBorra las tarjetas guardadas de las aplicaciones que más usas y date de baja de los correos promocionales: un poco de fricción protege tu presupuesto.",
+    "ejemplo": null,
+    "icono": "hand.tap.fill"
+  },
+  {
+    "orden": 26,
+    "categoria": "inversion",
+    "titulo": "No pongas todos los huevos en la misma canasta",
+    "contenido": "Diversificar es repartir tu inversión entre distintos instrumentos, para que una mala noticia no afecte todo tu dinero al mismo tiempo. Un fondo mutuo, por ejemplo, ya reparte la inversión entre muchos instrumentos.\n\nAntes de elegir, conoce tu perfil de inversionista: cuánto riesgo toleras y en qué plazo necesitarás el dinero. CMF Educa tiene un test gratuito para descubrirlo.\n\nFuente: CMF Educa, «10 consejos prácticos para aprender a invertir» y test de perfil de inversionista.",
+    "ejemplo": null,
+    "icono": null
+  },
+  {
+    "orden": 27,
+    "categoria": "ahorro",
+    "titulo": "Ahorra los aumentos",
+    "contenido": "Cuando recibas un aumento, un bono o termines de pagar una deuda, destina al menos la mitad de ese dinero extra al ahorro. Hazlo antes de acostumbrarte a gastarlo.\n\nTu nivel de vida no baja, porque nunca contaste con ese dinero, y tu ahorro crece sin esfuerzo adicional.",
+    "ejemplo": "Aumento de sueldo | $50.000\nAl ahorro (50 %) | **$25.000 al mes\nAhorro extra en un año | $300.000",
+    "icono": null
+  },
+  {
+    "orden": 28,
+    "categoria": "gastoHormiga",
+    "titulo": "Anota hasta el gasto más pequeño",
+    "contenido": "Lo que no se registra, no se ve. Anotar cada compra, incluso las que no tienen boleta, es la mejor forma de descubrir tus gastos hormiga.\n\nRegistra el gasto apenas ocurra: esta aplicación toma solo unos segundos, y al final del mes verás exactamente a dónde se fue tu dinero.\n\nFuente: CMF Educa, recomendaciones sobre gastos hormiga.",
+    "ejemplo": null,
+    "icono": "list.clipboard.fill"
+  },
+  {
+    "orden": 29,
+    "categoria": "presupuesto",
+    "titulo": "Deja un margen para imprevistos",
+    "contenido": "Un presupuesto sin holgura se rompe al primer gasto inesperado. Reserva entre un 5 % y un 10 % de tus ingresos como colchón para los imprevistos del mes.\n\nSi a fin de mes no lo usaste, pásalo a tu ahorro o a tu fondo de emergencia.\n\nFuente: CMF Educa, recomendaciones sobre gastos hormiga.",
+    "ejemplo": "Ingreso mensual | $800.000\nMargen del 5 % | **$40.000\nMargen del 10 % | $80.000",
+    "icono": null
+  },
+  {
+    "orden": 30,
+    "categoria": "habitos",
+    "titulo": "Cuidado con las cuotas «sin interés»",
+    "contenido": "Las cuotas sin interés no encarecen la compra, pero comprometen tus ingresos de los próximos meses. Varias compras en cuotas pequeñas pueden sumar una cuota mensual grande.\n\nAntes de comprar en cuotas, suma todas las que ya estás pagando y pregúntate si podrás cubrirlas aunque tengas un imprevisto.",
+    "ejemplo": "Zapatillas: 6 cuotas | $15.000\nCelular: 12 cuotas | $25.000\nNotebook: 10 cuotas | $40.000\nComprometido cada mes | **$80.000",
+    "icono": null
+  },
+  {
+    "orden": 31,
+    "categoria": "deuda",
+    "titulo": "Conoce tu deuda total",
+    "contenido": "Puedes revisar todas tus deudas con bancos y otras entidades fiscalizadas en el Informe de Deudas de la CMF, ingresando con tu ClaveÚnica en conocetudeuda.cmfchile.cl. Como referencia, muchos especialistas recomiendan que la suma de tus cuotas no supere entre el 25 % y el 30 % de tu ingreso.\n\nSi tienes un crédito caro, la Ley de Portabilidad Financiera (Ley N° 21.236) te permite pedir a otra institución que lo pague y te ofrezca mejores condiciones. Compara siempre por CAE.\n\nFuente: CMF, «¿Qué es el Informe de Deudas?»; Ley N° 21.236 sobre portabilidad financiera.",
+    "ejemplo": "Ingreso mensual | $800.000\nTope de cuotas (25 %) | **$200.000\nTope de cuotas (30 %) | $240.000",
+    "icono": null
+  },
+  {
+    "orden": 32,
+    "categoria": "gastoHormiga",
+    "titulo": "Calcula el costo anual de un gusto diario",
+    "contenido": "Multiplica un gasto que repites por las veces que ocurre en el año. Un snack de $1.500 cada día hábil parece poco, pero suma más de $370.000 al año.\n\nHacer este cálculo con tus gastos frecuentes te ayuda a decidir cuáles valen la pena y cuáles no.\n\nFuente: CMF Educa, calculadora «Determina tu gasto hormiga».",
+    "ejemplo": "Snack diario | $1.500\nAl mes (21 días hábiles) | $31.500\nAl año | **$378.000",
+    "icono": null
+  },
+  {
+    "orden": 33,
+    "categoria": "presupuesto",
+    "titulo": "Prepárate para marzo con tiempo",
+    "contenido": "Marzo concentra gastos: matrículas, útiles, uniformes y el permiso de circulación, justo después de las vacaciones. Pagarlo todo de una vez suele terminar en cuotas con interés.\n\nEstima cuánto vas a necesitar y empieza a reservar desde octubre. Repartido en varios meses, el golpe es mucho menor.",
+    "ejemplo": "Gastos estimados de marzo | $450.000\nMeses para reservar (oct.–feb.) | 5\nReserva mensual | **$90.000",
+    "icono": null
+  },
+  {
+    "orden": 34,
+    "categoria": "habitos",
+    "titulo": "Protege tus claves y evita fraudes",
+    "contenido": "Tu banco nunca te pedirá claves, coordenadas ni códigos de verificación por teléfono, correo o mensaje. Si alguien te los pide, es un intento de fraude, aunque diga llamar desde tu banco.\n\nIngresa siempre escribiendo tú mismo la dirección del sitio, no desde enlaces recibidos. Si sospechas un fraude, bloquea tus tarjetas de inmediato y avisa a tu banco.\n\nFuente: CMF Educa, recomendaciones para prevenir fraudes.",
+    "ejemplo": null,
+    "icono": "lock.shield.fill"
+  },
+  {
+    "orden": 35,
+    "categoria": "inversion",
+    "titulo": "Antes de invertir, verifica",
+    "contenido": "Invierte solo en entidades fiscalizadas por la CMF y desconfía de cualquier oferta con rentabilidades altas «garantizadas». Si no entiendes cómo gana dinero un producto, no inviertas en él.\n\nY antes de invertir, asegúrate de tener tu fondo de emergencia: así no tendrás que vender tus inversiones en un mal momento.\n\nFuente: CMF Educa, consejos para invertir y para prevenir fraudes.",
+    "ejemplo": "¿La entidad está fiscalizada por la CMF? | **Sí\n¿Promete ganancias garantizadas? | **No\n¿Entiendes el producto? | **Sí",
+    "icono": null
+  },
+  {
+    "orden": 36,
+    "categoria": "ahorro",
+    "titulo": "APV: ahorro para tu pensión con apoyo del Estado",
+    "contenido": "El Ahorro Previsional Voluntario (APV) es un ahorro adicional para tu pensión que tiene beneficios tributarios. Puedes elegir entre dos regímenes.\n\nEn el régimen A, el Estado agrega una bonificación del 15 % de lo que ahorras, con un tope de 6 UTM al año; suele convenir a quienes pagan poco o nada de impuesto a la renta. En el régimen B, tus aportes se descuentan de la base del impuesto, lo que favorece a quienes tienen ingresos más altos.\n\nFuente: Superintendencia de Pensiones, «Ahorro Previsional Voluntario».",
+    "ejemplo": "Aporte mensual (régimen A) | $50.000\nAporte en el año | $600.000\nBonificación fiscal (15 %) | **$90.000",
+    "icono": null
+  },
+  {
+    "orden": 37,
+    "categoria": "presupuesto",
+    "titulo": "Tu presupuesto debe caber en tu ingreso",
+    "contenido": "Si la suma de tus límites por categoría supera tu ingreso mensual, el plan no es realista y terminarás financiando la diferencia con deuda. Ajusta los límites hasta que quede espacio para el ahorro.\n\nLa pestaña Presupuestos te muestra el total presupuestado frente a tu ingreso mensual de referencia.",
+    "ejemplo": "Ingreso de referencia | $800.000\nTotal presupuestado | $600.000\nDisponible para ahorrar | **$200.000",
+    "icono": null
+  },
+  {
+    "orden": 38,
+    "categoria": "habitos",
+    "titulo": "Celebra tus logros sin desarmar tu plan",
+    "contenido": "Cumplir una meta de ahorro merece una celebración: refuerza el hábito y te da ánimo para la siguiente. La clave es que el premio también esté dentro del presupuesto.\n\nDefine el premio al momento de fijar la meta, por ejemplo, un 5 % de lo ahorrado, y disfrútalo sin culpa.",
+    "ejemplo": "Meta cumplida | $600.000\nPremio (5 %) | **$30.000",
+    "icono": "party.popper.fill"
+  },
+  {
+    "orden": 39,
+    "categoria": "habitos",
+    "titulo": "Conversa de dinero en casa",
+    "contenido": "Las finanzas del hogar funcionan mejor cuando todos conocen el presupuesto y las metas. Conversar de dinero evita malentendidos y gastos duplicados.\n\nUna reunión breve al mes basta para revisar cómo les fue, ajustar los límites y celebrar los avances en conjunto.",
+    "ejemplo": null,
+    "icono": "person.2.fill"
+  }
+]
