@@ -1,0 +1,15 @@
+# Archivos que Git no debe versionar en este proyecto de Xcode.
+
+# Datos personales de Xcode (posición de ventanas, puntos de interrupción, etc.)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Carpetas de compilación y resultados de pruebas
+build/
+DerivedData/
+*.xcresult
+
+# Archivos del sistema macOS
+.DS_Store
